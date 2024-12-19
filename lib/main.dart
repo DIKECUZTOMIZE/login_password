@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:log_pass/ui/on_boarding/login_page.dart';
 
 void main() {
   runApp( MyApp());
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home:
+      home: LoginPage()
     );
   }
 }
